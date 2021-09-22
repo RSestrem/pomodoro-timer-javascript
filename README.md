@@ -16,4 +16,5 @@
 
 - Função `STOP` para pausar o timer;
 - Função `RESET` parar zerar a contagem regressiva;
+- Implementar função `BREAK` que define o tempo de descanso entre as contagens regressivas
 - Tratamento de erro caso o usuário informe valor que seja diferente de numeral inteiro no campo `input` de tempo.
