@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <title>Pomotimer</title>
+</head>
+<body>
+    <header>
+        <h1>Pomotimer</h1>
+        <h3>Keep it focused!</h3>
+    </header>
+    <section class="section1">
+        <div class="contador">
+            <span id="time">00:00</span>
+        </div>
+        <div class="tarefa">
+            <h4>Tempo do Timer (em minutos)</h4>
+            <input type="text" name="tempo_do_timer" id="tempoInput" placeholder="Insira o tempo aqui.">
+        </div>
+        <div class="tarefa">
+            <h4>Tarefa</h4>
+            <input type="text" name="tarefa" id="tarefa" placeholder="Insira a tarefa aqui...">
+        </div>
+        <div class="botoes">
+            <button type="submit" class="start">
+                START TIMER
+            </button>
+        </div>
+    </section>
+    <section class="section2">
+        <h4>Tarefas Concluídas</h4>
+        <hr>
+        <div class="completeTask">
+        </div>        
+    </section>
+    
+</body>
+</html>

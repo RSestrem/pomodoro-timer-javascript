@@ -1,0 +1,87 @@
+:root {
+    --body-background: #BE81F7;
+    --box-background: #AC58FA;
+    --font-color: #ECE0F8;
+    --buttons: #A901DB;
+}
+
+body {
+    background: var(--body-background);
+    font: 20px Arial;
+}
+
+header {
+    color: var(--font-color);
+    text-align: center;
+}
+
+.section1 {
+    background: var(--box-background);
+    border-radius: 8px;
+    padding: 15px;
+    width: 500px;
+    height: 340px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.300);
+}
+
+.section2 {
+    background: var(--box-background);
+    border-radius: 7px;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.300);  
+}
+
+.contador{
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: var(--font-color);
+}
+
+.botoes{
+    text-align: center;
+}
+
+.start{
+    background: var(--buttons);
+    color: var(--font-color);
+    font-weight: bold;
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.start:hover {
+    background: var(--body-background);
+}
+
+.tarefa {
+    text-align: center;
+    color: var(--font-color);
+}
+
+.tarefa #tarefa,
+.tarefa #tempoInput {
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+h4 {
+    padding-top: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: center;
+    color: var(--font-color);
+}
+
+.completeTask{
+    margin-top: 5px;
+    text-align: center;
+    color: var(--font-color);
+}
